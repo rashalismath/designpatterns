@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Ismath
  */
-public class Station {
+public class Station implements IObservable{
     int temp;
  ArrayList<IObserver> observers=new ArrayList<IObserver>(5);
    

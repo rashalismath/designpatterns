@@ -14,8 +14,8 @@ package observepackage;
 public interface IObservable {
    
     
-    public void add();
-    public void remove();
+    public void add(IObserver observer);
+    public void remove(IObserver observer);
     public void notfy();
     
     
